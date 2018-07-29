@@ -1,0 +1,78 @@
+#map {
+  position: absolute;
+  height: calc(100% - 70px);
+  width: 100%;
+  left: 0%;
+
+  transition: margin-left .5s, transforms 0s;
+
+}
+
+.map-container {
+  height: 100%;
+  width: 100%;
+}
+
+.map-builtin-search-box {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  width: 240px;
+  height: 32px;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 0 12px;
+  border-radius: 3px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  outline: none;
+  text-overflow: ellipsis;
+}
+
+.info-container {
+  width: 200px;
+}
+
+.info-head-container, .info-body-like, .info-body-phone, .info-body-address {
+  margin-bottom: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-head-name, .info-body-like-label {
+  width: calc(100% - 32px);
+  padding-top: 5px;
+
+  text-align: center;
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+.info-body-like-label, .info-body-phone-number, .info-body-address-number {
+  width: calc(100% - 42px);
+  padding-top: 10px;
+  padding-left: 10px;
+
+  font-size: 10pt;
+  font-weight: normal;
+  text-align: left;
+}
+
+.info-body-timeframe ul {
+  padding: 0;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.info-body-phone-number, .info-body-address {
+  text-decoration: underline;
+}
+
+.info-body-address-number {
+  font-size: 8pt;
+}
+
+.info-body-thumbnail {
+  width: 200px;
+}

@@ -1,0 +1,128 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.place-list {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 5px;
+}
+
+.filter {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+
+  border-style: solid;
+  border-color: gray;
+  border-radius: 10px;
+}
+
+.filter input[type=range] {
+  width: 100%;
+}
+
+.filter p {
+  font-size: 13pt;
+  font-weight: bold;
+  color: gray;
+}
+
+.filter-title {
+  font-size: 20pt;
+  border-bottom-color: gray;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  padding-bottom: 5px;
+}
+
+.venue {
+  color: gray;
+  height: 135px;
+}
+
+.venue:hover {
+  background-color: rgba(0, 0, 0, 0.72);;
+}
+
+.venue img {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.venue p {
+  height: 20px;
+
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  background-color: #00a7b1;
+}
+
+.venue-title {
+  color: white;
+  font-weight: bold;
+}
+
+.venue-info {
+  float: left;
+  overflow: hidden;
+  margin-left: 5px;
+}
+
+.venue-info div {
+  height: 30px;
+  vertical-align: middle;
+  margin-top: 3px;
+}
+
+.venue-info img {
+  height: 30px;
+  width: 30px;
+}
+
+.venue-info-value {
+  font-size: 10pt;
+  padding-top: 15px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width : 768px) {
+  .sidenav {
+    top: 70px;
+    position: absolute;
+    height: auto;
+  }
+}
